@@ -1,0 +1,134 @@
+/* Style the navigation menu */
+.topnav {
+  overflow:hidden;
+  background-color:black;
+  position:fixed;
+}
+body{
+  background-color:black;
+  color:white;
+  font-family:Space Mono;
+}
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color:black;
+  color: white;
+}
+h1{
+  font-size:40px;
+  background: #000;
+}
+p{
+  font-size:35px;
+  background: #000;
+}
+#welcome-section{
+  height:100%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background-image:
+url('poze/image3.jpg');
+  background-repeat:no-repeat;
+  background-position:right;
+  }
+#projects{
+  background: #222;
+  width: 90%;
+  height:100%;
+  text-align:center;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+  margin-left: 4rem;
+}
+
+#projects h1{
+  padding-bottom: 1rem;
+}
+
+.row{
+  display:flex;
+  flex-direction:row;
+  width:100%;
+  margin-left:80px;
+  margin-bottom:30px;
+}
+.column{
+  display:flex;
+  flex-direction:column;
+  flex:1;
+}
+.profile-links{
+  display:flex;
+}
+
+footer {
+	padding-top: 7rem;
+	padding-bottom: 2rem;
+	text-align: center;
+	position: bottom;
+}
+
+footer p{
+	font-size: 1rem;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer div {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	padding-left: 2.7rem;
+}
+
+footer div a:first-child{
+	margin-right: 1rem;
+}
+
+footer div a:last-child{
+	margin-left: 1rem;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #profile-link{
+    display:none;
+  }
+}

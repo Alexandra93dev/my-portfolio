@@ -1,0 +1,166 @@
+/* Style the navigation menu */
+.topnav {
+  overflow:hidden;
+  background-color:black;
+  position:fixed;
+}
+body{
+  background-color:black;
+  color:white;
+  font-family:Space Mono;
+}
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color:black;
+  color: white;
+}
+h1{
+  font-size:40px;
+  background: #000;
+}
+p{
+  font-size:35px;
+  background: #000;
+}
+
+#welcome-section{
+  height:33%;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  background-image:
+url('poze/image3.jpg');
+  background-repeat:no-repeat;
+  background-position:right;
+  }
+  
+#contact-section{
+  height:50%;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.two-columns {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 3rem;
+  padding-left: 18rem;
+}
+
+ 
+ #contact-section .two-columns p {
+	 width: 70%;
+	 font-size: 1.3rem;
+	 text-align: left;
+ }
+ 
+#contact-section .my-form{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+#contact-section .my-form input[type="text"] {
+	width: 40%;
+	padding: 0.7rem;
+	margin-bottom: 1rem;
+}
+
+#contact-section .my-form input[type="email"] {
+	width: 40%;
+	padding: 0.7rem;
+	margin-bottom: 1rem;
+}
+
+#contact-section .my-form textarea {
+	width: 40%;
+	padding: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+.btn1 {
+	width: 40%;
+	padding: 0.7rem;
+	margin-bottom: 1rem;
+	background: #777;
+	color: #fff;
+	border: none;
+	font-size: 1.3rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.btn1:hover {
+	background: #fff;
+	color: #000;
+}
+ 
+ footer {
+	padding-top: 7rem;
+	padding-bottom: 2rem;
+	text-align: center;
+	position: bottom;
+}
+
+footer p{
+	font-size: 1rem;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer a {
+	text-decoration: none;
+	color: #fff;
+}
+
+footer div {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	justify-content: center;
+	padding-left: 2.7rem;
+}
+
+footer div a:first-child{
+	margin-right: 1rem;
+}
+
+footer div a:last-child{
+	margin-left: 1rem;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  #profile-link{
+    display:none;
+  }
+}
